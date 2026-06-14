@@ -53,10 +53,14 @@ const App = () => {
 
   return (
     <div className="app">
-      <canvas ref={confettiCanvasRef} className="confetti-canvas" aria-hidden="true" />
+      <canvas
+        ref={confettiCanvasRef}
+        className="confetti-canvas"
+        aria-hidden="true"
+      />
       <header className="header">
         <nav>
-          <span className="logo">SCC Code Camp</span>
+          <span className="logo">Personal Portfolio</span>
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -90,12 +94,21 @@ const App = () => {
         <section className="section" id="about">
           <div className="section-header">
             <h2>About</h2>
-            <p>Share a quick summary about your goals, vibe, or favorite tech stack.</p>
+            <p>
+              I'm a dedicated developer with a strong interest in Web
+              Development, Cybersecurity, and Artificial Intelligence. I enjoy
+              designing and building modern applications using React and Node.js
+              while continuously improving my technical skills. My current focus
+              is gaining practical experience through projects, hackathons, and
+              continuous learning to become a well-rounded software engineer.
+            </p>
           </div>
           <div className="card">
             <p>
-              This starter kit is all about speed: personalize two files, unlock the easter egg, and
-              ship your link in minutes.
+              Skills: HTML, CSS, JavaScript, TypeScript, React, Node.js, Git,
+              GitHub, Linux, Networking Fundamentals, and Cybersecurity Basics.
+              Continuously learning and improving through hands-on projects and
+              practical experience.
             </p>
           </div>
         </section>
@@ -105,14 +118,14 @@ const App = () => {
         <section className="section" id="contact">
           <div className="section-header">
             <h2>Contact</h2>
-            <p>Make it easy for mentors and friends to reach you.</p>
+            <p>Let’s connect! Feel free to reach out via email or GitHub.</p>
           </div>
           <div className="contact-card">
             <p>
-              <strong>Email:</strong> you@example.com
+              <strong>Email:</strong> belmaz0518@gmail.com
             </p>
             <p>
-              <strong>GitHub:</strong> github.com/your-handle
+              <strong>GitHub:</strong> github.com/webbyfan
             </p>
             <button className="button ghost" type="button">
               Copy email
