@@ -10,7 +10,7 @@ const Hero = ({ name, tagline, cta }: HeroProps) => {
   return (
     <section className="hero" id="home">
       <div className="hero-card">
-        <p className="eyebrow">Code Camp Starter Kit</p>
+        <p className="eyebrow">Computer Science Student</p>
         <h1>{name}</h1>
         <p className="tagline">{tagline}</p>
         <div className="hero-actions">{cta}</div>

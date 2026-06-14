@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useRef, useEffect, useState } from "react";
 import Hero from "./components/Hero";
-import ProgressChecklist from "./components/ProgressChecklist";
+// import ProgressChecklist from "./components/ProgressChecklist";
 import Projects from "./components/Projects";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import { defaultProfile, profile } from "./data/profile";
@@ -80,7 +80,7 @@ const App = () => {
           }
         />
 
-        <ProgressChecklist
+        {/* <ProgressChecklist
           name={profile.name}
           tagline={profile.tagline}
           defaultName={defaultProfile.name}
@@ -89,7 +89,7 @@ const App = () => {
           defaultProjectsCount={defaultProjects.length}
           easterEggUnlocked={easterEggUnlockedState}
           badge={<span className="badge">15-min Lab</span>}
-        />
+        /> */}
 
         <section className="section" id="about">
           <div className="section-header">
